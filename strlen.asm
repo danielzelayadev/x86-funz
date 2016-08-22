@@ -29,7 +29,6 @@ strlen:
 
 	while:
 		movzx edx, byte [ ebx ] ; edx = *str
-		#show edx
 		cmp edx, 0
 		je return
 
